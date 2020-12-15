@@ -18,6 +18,11 @@
         <div class="gallery-cell"><img class='card' src="./used ducks/duck title.png" /></div>
     </div>
     <script src="./flickity.js"></script>
+    <script>
+        let vh = window.innerHeight * 0.01;
+        // Then we set the value in the --vh custom property to the root of the document
+        document.documentElement.style.setProperty('--vh', `${vh}px`);
+    </script>
 </body>
 
 </html>
