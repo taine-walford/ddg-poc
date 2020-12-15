@@ -12,3 +12,11 @@ body {
     width: 100%;
     height: calc(var(--vh, 1vh) * 100);
 }
+
+ol {
+    height: calc(var(--vh, 1vh) * 5);
+}
+
+li {
+    background: blue;
+}
