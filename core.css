@@ -14,9 +14,5 @@ body {
 }
 
 ol {
-    height: calc(var(--vh, 1vh) * 5);
-}
-
-li {
-    background: blue;
+    height: calc(var(--vh, 1vh) * 10);
 }
